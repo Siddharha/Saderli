@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8527F10E203615C2000D3E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527F10D203615C2000D3E92 /* AppDelegate.swift */; };
+		8527F110203615C2000D3E92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527F10F203615C2000D3E92 /* ViewController.swift */; };
+		8527F113203615C2000D3E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8527F111203615C2000D3E92 /* Main.storyboard */; };
+		8527F115203615C2000D3E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8527F114203615C2000D3E92 /* Assets.xcassets */; };
+		8527F118203615C2000D3E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8527F116203615C2000D3E92 /* LaunchScreen.storyboard */; };
+		8527F123203615C2000D3E92 /* SaderliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527F122203615C2000D3E92 /* SaderliTests.swift */; };
+		8527F12E203615C2000D3E92 /* SaderliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527F12D203615C2000D3E92 /* SaderliUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8527F11F203615C2000D3E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8527F102203615C2000D3E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8527F109203615C2000D3E92;
+			remoteInfo = Saderli;
+		};
+		8527F12A203615C2000D3E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8527F102203615C2000D3E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8527F109203615C2000D3E92;
+			remoteInfo = Saderli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8527F10A203615C2000D3E92 /* Saderli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saderli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8527F10D203615C2000D3E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8527F10F203615C2000D3E92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8527F112203615C2000D3E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8527F114203615C2000D3E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8527F117203615C2000D3E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8527F119203615C2000D3E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8527F11E203615C2000D3E92 /* SaderliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaderliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8527F122203615C2000D3E92 /* SaderliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaderliTests.swift; sourceTree = "<group>"; };
+		8527F124203615C2000D3E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8527F129203615C2000D3E92 /* SaderliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaderliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8527F12D203615C2000D3E92 /* SaderliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaderliUITests.swift; sourceTree = "<group>"; };
+		8527F12F203615C2000D3E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8527F107203615C2000D3E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8527F11B203615C2000D3E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8527F126203615C2000D3E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8527F101203615C2000D3E92 = {
+			isa = PBXGroup;
+			children = (
+				8527F10C203615C2000D3E92 /* Saderli */,
+				8527F121203615C2000D3E92 /* SaderliTests */,
+				8527F12C203615C2000D3E92 /* SaderliUITests */,
+				8527F10B203615C2000D3E92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8527F10B203615C2000D3E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8527F10A203615C2000D3E92 /* Saderli.app */,
+				8527F11E203615C2000D3E92 /* SaderliTests.xctest */,
+				8527F129203615C2000D3E92 /* SaderliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8527F10C203615C2000D3E92 /* Saderli */ = {
+			isa = PBXGroup;
+			children = (
+				8527F10D203615C2000D3E92 /* AppDelegate.swift */,
+				8527F10F203615C2000D3E92 /* ViewController.swift */,
+				8527F111203615C2000D3E92 /* Main.storyboard */,
+				8527F114203615C2000D3E92 /* Assets.xcassets */,
+				8527F116203615C2000D3E92 /* LaunchScreen.storyboard */,
+				8527F119203615C2000D3E92 /* Info.plist */,
+			);
+			path = Saderli;
+			sourceTree = "<group>";
+		};
+		8527F121203615C2000D3E92 /* SaderliTests */ = {
+			isa = PBXGroup;
+			children = (
+				8527F122203615C2000D3E92 /* SaderliTests.swift */,
+				8527F124203615C2000D3E92 /* Info.plist */,
+			);
+			path = SaderliTests;
+			sourceTree = "<group>";
+		};
+		8527F12C203615C2000D3E92 /* SaderliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8527F12D203615C2000D3E92 /* SaderliUITests.swift */,
+				8527F12F203615C2000D3E92 /* Info.plist */,
+			);
+			path = SaderliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8527F109203615C2000D3E92 /* Saderli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8527F132203615C2000D3E92 /* Build configuration list for PBXNativeTarget "Saderli" */;
+			buildPhases = (
+				8527F106203615C2000D3E92 /* Sources */,
+				8527F107203615C2000D3E92 /* Frameworks */,
+				8527F108203615C2000D3E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Saderli;
+			productName = Saderli;
+			productReference = 8527F10A203615C2000D3E92 /* Saderli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8527F11D203615C2000D3E92 /* SaderliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8527F135203615C2000D3E92 /* Build configuration list for PBXNativeTarget "SaderliTests" */;
+			buildPhases = (
+				8527F11A203615C2000D3E92 /* Sources */,
+				8527F11B203615C2000D3E92 /* Frameworks */,
+				8527F11C203615C2000D3E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8527F120203615C2000D3E92 /* PBXTargetDependency */,
+			);
+			name = SaderliTests;
+			productName = SaderliTests;
+			productReference = 8527F11E203615C2000D3E92 /* SaderliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8527F128203615C2000D3E92 /* SaderliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8527F138203615C2000D3E92 /* Build configuration list for PBXNativeTarget "SaderliUITests" */;
+			buildPhases = (
+				8527F125203615C2000D3E92 /* Sources */,
+				8527F126203615C2000D3E92 /* Frameworks */,
+				8527F127203615C2000D3E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8527F12B203615C2000D3E92 /* PBXTargetDependency */,
+			);
+			name = SaderliUITests;
+			productName = SaderliUITests;
+			productReference = 8527F129203615C2000D3E92 /* SaderliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8527F102203615C2000D3E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Siddhartha Maji";
+				TargetAttributes = {
+					8527F109203615C2000D3E92 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8527F11D203615C2000D3E92 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8527F109203615C2000D3E92;
+					};
+					8527F128203615C2000D3E92 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8527F109203615C2000D3E92;
+					};
+				};
+			};
+			buildConfigurationList = 8527F105203615C2000D3E92 /* Build configuration list for PBXProject "Saderli" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8527F101203615C2000D3E92;
+			productRefGroup = 8527F10B203615C2000D3E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8527F109203615C2000D3E92 /* Saderli */,
+				8527F11D203615C2000D3E92 /* SaderliTests */,
+				8527F128203615C2000D3E92 /* SaderliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8527F108203615C2000D3E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8527F118203615C2000D3E92 /* LaunchScreen.storyboard in Resources */,
+				8527F115203615C2000D3E92 /* Assets.xcassets in Resources */,
+				8527F113203615C2000D3E92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8527F11C203615C2000D3E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8527F127203615C2000D3E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8527F106203615C2000D3E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8527F110203615C2000D3E92 /* ViewController.swift in Sources */,
+				8527F10E203615C2000D3E92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8527F11A203615C2000D3E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8527F123203615C2000D3E92 /* SaderliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8527F125203615C2000D3E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8527F12E203615C2000D3E92 /* SaderliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8527F120203615C2000D3E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8527F109203615C2000D3E92 /* Saderli */;
+			targetProxy = 8527F11F203615C2000D3E92 /* PBXContainerItemProxy */;
+		};
+		8527F12B203615C2000D3E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8527F109203615C2000D3E92 /* Saderli */;
+			targetProxy = 8527F12A203615C2000D3E92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8527F111203615C2000D3E92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8527F112203615C2000D3E92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8527F116203615C2000D3E92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8527F117203615C2000D3E92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8527F130203615C2000D3E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8527F131203615C2000D3E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8527F133203615C2000D3E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH4QLR9MNH;
+				INFOPLIST_FILE = Saderli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.creativelizard.Saderli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8527F134203615C2000D3E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH4QLR9MNH;
+				INFOPLIST_FILE = Saderli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.creativelizard.Saderli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8527F136203615C2000D3E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH4QLR9MNH;
+				INFOPLIST_FILE = SaderliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.creativelizard.SaderliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saderli.app/Saderli";
+			};
+			name = Debug;
+		};
+		8527F137203615C2000D3E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH4QLR9MNH;
+				INFOPLIST_FILE = SaderliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.creativelizard.SaderliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saderli.app/Saderli";
+			};
+			name = Release;
+		};
+		8527F139203615C2000D3E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH4QLR9MNH;
+				INFOPLIST_FILE = SaderliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.creativelizard.SaderliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Saderli;
+			};
+			name = Debug;
+		};
+		8527F13A203615C2000D3E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH4QLR9MNH;
+				INFOPLIST_FILE = SaderliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.creativelizard.SaderliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Saderli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8527F105203615C2000D3E92 /* Build configuration list for PBXProject "Saderli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8527F130203615C2000D3E92 /* Debug */,
+				8527F131203615C2000D3E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8527F132203615C2000D3E92 /* Build configuration list for PBXNativeTarget "Saderli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8527F133203615C2000D3E92 /* Debug */,
+				8527F134203615C2000D3E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8527F135203615C2000D3E92 /* Build configuration list for PBXNativeTarget "SaderliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8527F136203615C2000D3E92 /* Debug */,
+				8527F137203615C2000D3E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8527F138203615C2000D3E92 /* Build configuration list for PBXNativeTarget "SaderliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8527F139203615C2000D3E92 /* Debug */,
+				8527F13A203615C2000D3E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8527F102203615C2000D3E92 /* Project object */;
+}
