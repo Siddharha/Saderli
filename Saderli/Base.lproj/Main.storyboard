@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,88 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Saderli" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Saderli_logo" translatesAutoresizingMaskIntoConstraints="NO" id="jcX-Gh-0L8">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jcX-Gh-0L8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GOg-s6-0KV"/>
+                            <constraint firstItem="jcX-Gh-0L8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="249" id="jEk-h4-8K1"/>
+                            <constraint firstItem="jcX-Gh-0L8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mUr-1I-6mJ"/>
+                            <constraint firstItem="jcX-Gh-0L8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="wYs-bG-Aho"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="ySd-d3-hOl" kind="show" identifier="segue_Page2" id="Wek-fa-IhG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-150" y="34"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="pz7-OC-InP">
+            <objects>
+                <viewController id="ySd-d3-hOl" customClass="WebViewController" customModule="Saderli" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qOx-i5-JdH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50B-Dv-x5L">
+                                <rect key="frame" x="0.0" y="20" width="375" height="617"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="617" id="KjK-6o-XrT"/>
+                                    <constraint firstAttribute="width" constant="375" id="kLK-MK-YvN"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LKZ-sL-CCu">
+                                <rect key="frame" x="0.0" y="637" width="375" height="30"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3ge-Rv-tR1"/>
+                                    <constraint firstAttribute="width" constant="375" id="6Rg-kk-z8q"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LKZ-sL-CCu" firstAttribute="top" secondItem="50B-Dv-x5L" secondAttribute="bottom" id="7su-Wj-rvV"/>
+                            <constraint firstItem="LKZ-sL-CCu" firstAttribute="trailing" secondItem="3Wi-0a-stC" secondAttribute="trailing" id="OJ4-KG-acC"/>
+                            <constraint firstItem="50B-Dv-x5L" firstAttribute="trailing" secondItem="3Wi-0a-stC" secondAttribute="trailing" id="aJ8-tA-8TJ"/>
+                            <constraint firstItem="50B-Dv-x5L" firstAttribute="leading" secondItem="3Wi-0a-stC" secondAttribute="leading" id="egk-xL-gbB"/>
+                            <constraint firstItem="50B-Dv-x5L" firstAttribute="top" secondItem="3Wi-0a-stC" secondAttribute="top" id="hMi-Ne-LVr"/>
+                            <constraint firstItem="LKZ-sL-CCu" firstAttribute="leading" secondItem="3Wi-0a-stC" secondAttribute="leading" id="oYj-4Y-mmE"/>
+                            <constraint firstItem="LKZ-sL-CCu" firstAttribute="bottom" secondItem="3Wi-0a-stC" secondAttribute="bottom" id="sh8-FF-VWZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3Wi-0a-stC"/>
+                    </view>
+                    <connections>
+                        <outlet property="webview" destination="50B-Dv-x5L" id="y1q-nk-dPI"/>
+                        <outlet property="webviewBanner" destination="LKZ-sL-CCu" id="T6R-u0-fLH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zyK-F3-Yro" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="33.733133433283363"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Saderli_logo" width="408" height="203"/>
+    </resources>
 </document>
