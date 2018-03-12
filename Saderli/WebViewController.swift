@@ -60,7 +60,7 @@ class WebViewController: UIViewController, WKNavigationDelegate {
         
     }
     func loadBannerWebview() {
-        Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(updateBanner), userInfo: nil, repeats: true)
+        Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(updateBanner), userInfo: nil, repeats: true)
     }
     
     @objc func updateBanner() {
